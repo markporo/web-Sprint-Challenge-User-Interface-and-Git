@@ -314,3 +314,52 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
+
+/* About PAGE */
+
+.aboutSections {
+  border-bottom: 2px dotted black;
+  margin: 20px;
+}
+
+.midSectionTwoRows {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.sectionBeforeFooter {
+  margin: 20px;
+  padding-bottom: 20px;
+}
+
+.midSectionTwoRows button {
+  margin: 20px 0px 20px;
+  border-radius: 10px;
+  height: 35px;
+  width: 110px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.midSectionTwoRows button:hover {
+  color: white;
+  background-color: black;
+}
+
+.container about-page footer {
+  margin-top: 20px;
+}
+
+.midSectionTwoRows img {
+  margin-bottom: 15px;
+}
+
+.midSectionThatWierdlyHasMoreSpaceAbove {
+  margin-top: 20px;
+}
+
+#about {
+  padding-bottom: 20px;
+  margin-top: 0px;
+}
